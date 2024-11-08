@@ -1,8 +1,8 @@
 //
 //  SceneDelegate.swift
-//  CatGeneratorNew
+//  CatGenerator
 //
-//  Created by Ширапов Арсалан on 08.11.2024.
+//  Created by Ширапов Арсалан on 31.10.2024.
 //
 
 import UIKit
