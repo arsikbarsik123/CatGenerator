@@ -8,20 +8,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Red-->
-        <scene sceneID="Mg7-kF-yxa">
-            <objects>
-                <viewControllerPlaceholder storyboardName="Red" id="f6V-rI-5g3" sceneMemberID="viewController">
-                    <navigationItem key="navigationItem" id="r0l-0S-jrE"/>
-                </viewControllerPlaceholder>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="TuS-4R-PR7" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1959" y="380"/>
-        </scene>
         <!--Texted Cat View Controller-->
         <scene sceneID="R4b-UA-83V">
             <objects>
-                <viewController id="jgO-nu-K0c" customClass="TextedCatViewController" customModule="CatGenerator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="jgO-nu-K0c" customClass="TextedCatViewController" customModule="CatGeneratorNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="pXK-uO-V8g">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,7 +111,7 @@
         <!--Third View Controller-->
         <scene sceneID="Idb-mB-r7f">
             <objects>
-                <viewController id="anA-3d-jIZ" customClass="ThirdViewController" customModule="CatGenerator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="anA-3d-jIZ" customClass="ThirdViewController" customModule="CatGeneratorNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="m4N-Eh-tBc">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -148,14 +138,6 @@
             </objects>
             <point key="canvasLocation" x="3375" y="743"/>
         </scene>
-        <!--Storyboard Reference-->
-        <scene sceneID="cOH-d3-GS7">
-            <objects>
-                <viewControllerPlaceholder id="Piv-d6-u7H" sceneMemberID="viewController"/>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Mth-Tb-3rf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="97" y="521"/>
-        </scene>
         <!--TextedCat-->
         <scene sceneID="CZL-oo-ep1">
             <objects>
@@ -176,7 +158,7 @@
         <!--Second View Controller-->
         <scene sceneID="bio-0x-plK">
             <objects>
-                <viewController id="r17-MZ-Kse" customClass="SecondViewController" customModule="CatGenerator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="r17-MZ-Kse" customClass="SecondViewController" customModule="CatGeneratorNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="bsN-Q4-5DC">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -247,7 +229,7 @@
         <!--Cat View Controller-->
         <scene sceneID="0nm-GG-G4v">
             <objects>
-                <viewController id="Oxe-zK-ONO" customClass="CatViewController" customModule="CatGenerator" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Oxe-zK-ONO" customClass="CatViewController" customModule="CatGeneratorNew" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ipQ-pI-pbS">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -278,14 +260,6 @@
                                                     <action selector="didTapCatGeneratorButton:" destination="Oxe-zK-ONO" eventType="touchUpInside" id="3WM-ht-7NL"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xfP-Qc-T4m">
-                                                <rect key="frame" x="50" y="385.33333333333331" width="293" height="35"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="перейти на красный экран"/>
-                                                <connections>
-                                                    <segue destination="f6V-rI-5g3" kind="show" id="26A-Wi-oh5"/>
-                                                </connections>
-                                            </button>
                                             <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="fSK-hG-I2A">
                                                 <rect key="frame" x="186" y="333" width="20" height="20"/>
                                             </activityIndicatorView>
@@ -294,15 +268,12 @@
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="fjo-dx-m6A" secondAttribute="trailing" constant="50" id="165-kZ-59Q"/>
                                             <constraint firstItem="U8b-dy-gpi" firstAttribute="top" secondItem="HSn-lz-SKC" secondAttribute="bottom" constant="29.999999999999986" id="1iU-pt-0Tg"/>
-                                            <constraint firstAttribute="bottom" secondItem="xfP-Qc-T4m" secondAttribute="bottom" constant="250" id="3gM-R7-Vdf"/>
-                                            <constraint firstAttribute="trailing" secondItem="xfP-Qc-T4m" secondAttribute="trailing" constant="50" id="ILB-dI-Ter"/>
+                                            <constraint firstAttribute="bottom" secondItem="fjo-dx-m6A" secondAttribute="bottom" constant="310.00000000000006" id="7Ct-Nv-ceA"/>
                                             <constraint firstItem="fjo-dx-m6A" firstAttribute="top" secondItem="U8b-dy-gpi" secondAttribute="bottom" constant="20" id="JTC-oY-P2s"/>
                                             <constraint firstItem="fjo-dx-m6A" firstAttribute="top" secondItem="fSK-hG-I2A" secondAttribute="bottom" constant="-27" id="N7d-EP-4ON"/>
                                             <constraint firstAttribute="trailing" secondItem="HSn-lz-SKC" secondAttribute="trailing" constant="20" id="TpL-gV-sUp"/>
                                             <constraint firstItem="fSK-hG-I2A" firstAttribute="leading" secondItem="Je2-E4-1bg" secondAttribute="leading" constant="186" id="U07-uz-6Zb"/>
-                                            <constraint firstItem="xfP-Qc-T4m" firstAttribute="leading" secondItem="Je2-E4-1bg" secondAttribute="leading" constant="50" id="dVc-KV-xxc"/>
                                             <constraint firstItem="HSn-lz-SKC" firstAttribute="leading" secondItem="Je2-E4-1bg" secondAttribute="leading" constant="20" id="eji-y9-B1J"/>
-                                            <constraint firstItem="xfP-Qc-T4m" firstAttribute="top" secondItem="fjo-dx-m6A" secondAttribute="bottom" constant="25" id="fdl-1A-ota"/>
                                             <constraint firstAttribute="trailing" secondItem="U8b-dy-gpi" secondAttribute="trailing" constant="20" id="fw2-mA-UkP"/>
                                             <constraint firstItem="HSn-lz-SKC" firstAttribute="top" secondItem="Je2-E4-1bg" secondAttribute="top" constant="20.333333333333329" id="gIR-zz-K5q"/>
                                             <constraint firstItem="U8b-dy-gpi" firstAttribute="leading" secondItem="Je2-E4-1bg" secondAttribute="leading" constant="20" id="hEQ-PI-3Bm"/>

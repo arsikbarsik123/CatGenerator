@@ -48,16 +48,6 @@
 			path = CatGeneratorNew;
 			sourceTree = "<group>";
 		};
-		CEA3ECBF2CDE7D230008DF58 /* CatGeneratorNewTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CatGeneratorNewTests;
-			sourceTree = "<group>";
-		};
-		CEA3ECC92CDE7D230008DF58 /* CatGeneratorNewUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = CatGeneratorNewUITests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +79,6 @@
 			isa = PBXGroup;
 			children = (
 				CEA3ECA82CDE7D200008DF58 /* CatGeneratorNew */,
-				CEA3ECBF2CDE7D230008DF58 /* CatGeneratorNewTests */,
-				CEA3ECC92CDE7D230008DF58 /* CatGeneratorNewUITests */,
 				CEA3ECA72CDE7D200008DF58 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -143,9 +131,6 @@
 			dependencies = (
 				CEA3ECBE2CDE7D230008DF58 /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				CEA3ECBF2CDE7D230008DF58 /* CatGeneratorNewTests */,
-			);
 			name = CatGeneratorNewTests;
 			packageProductDependencies = (
 			);
@@ -165,9 +150,6 @@
 			);
 			dependencies = (
 				CEA3ECC82CDE7D230008DF58 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				CEA3ECC92CDE7D230008DF58 /* CatGeneratorNewUITests */,
 			);
 			name = CatGeneratorNewUITests;
 			packageProductDependencies = (

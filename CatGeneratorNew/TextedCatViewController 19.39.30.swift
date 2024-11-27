@@ -46,7 +46,6 @@ final class TextedCatViewController: UIViewController, UITextFieldDelegate {
         view.endEditing(true)
     }
     @objc func textFieldDidChange(_ textField: UITextField) {
-        // Проверяем, не пусто ли поле ввода
         button.isEnabled = !textField.text!.isEmpty
     }
     @IBAction func didTapCatGeneratorButton(_ sender: Any) {
