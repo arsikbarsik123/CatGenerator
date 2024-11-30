@@ -1,5 +1,5 @@
 //
-//  SecondViewController.swift
+//  GeneratedCatViewController.swift
 //  CatGenerator
 //
 //  Created by Ширапов Арсалан on 02.11.2024.
@@ -11,7 +11,7 @@ struct SecondVCInput{
     let imageData: Data
 }
 
-final class SecondViewController: UIViewController {
+final class GeneratedCatViewController: UIViewController {
     @IBOutlet weak var catImageView: UIImageView!
     @IBOutlet weak var textLabel: UILabel!
     

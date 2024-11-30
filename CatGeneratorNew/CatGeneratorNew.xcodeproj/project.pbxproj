@@ -24,26 +24,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CEA3ECA62CDE7D200008DF58 /* CatGeneratorNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatGeneratorNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEA3ECBC2CDE7D230008DF58 /* CatGeneratorNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatGeneratorNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CEA3ECC62CDE7D230008DF58 /* CatGeneratorNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CatGeneratorNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE4E69BF2CF9EA6D00E852D7 /* CatGeneratorNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatGeneratorNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA3ECBC2CDE7D230008DF58 /* CatGeneratorNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CatGeneratorNewTests.xctest; path = "/Users/arsik/proga/swift sweat/CatGeneratorNew/CatGeneratorNew/build/Debug-iphoneos/CatGeneratorNew.app/PlugIns/CatGeneratorNewTests.xctest"; sourceTree = "<absolute>"; };
+		CEA3ECC62CDE7D230008DF58 /* CatGeneratorNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = CatGeneratorNewUITests.xctest; path = "/Users/arsik/proga/swift sweat/CatGeneratorNew/CatGeneratorNew/build/Debug-iphoneos/CatGeneratorNewUITests-Runner.app/PlugIns/CatGeneratorNewUITests.xctest"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CEA3ECCE2CDE7D230008DF58 /* Exceptions for "CatGeneratorNew" folder in "CatGeneratorNew" target */ = {
+		CE4E69AE2CF8EA3900E852D7 /* Exceptions for "CatGeneratorNew" folder in "CatGeneratorNew" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
 			target = CEA3ECA52CDE7D200008DF58 /* CatGeneratorNew */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CEA3ECA82CDE7D200008DF58 /* CatGeneratorNew */ = {
+		CE64C8FE2CF8E80800F57EFC /* CatGeneratorNew */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				CEA3ECCE2CDE7D230008DF58 /* Exceptions for "CatGeneratorNew" folder in "CatGeneratorNew" target */,
+				CE4E69AE2CF8EA3900E852D7 /* Exceptions for "CatGeneratorNew" folder in "CatGeneratorNew" target */,
 			);
 			path = CatGeneratorNew;
 			sourceTree = "<group>";
@@ -78,19 +78,9 @@
 		CEA3EC9D2CDE7D200008DF58 = {
 			isa = PBXGroup;
 			children = (
-				CEA3ECA82CDE7D200008DF58 /* CatGeneratorNew */,
-				CEA3ECA72CDE7D200008DF58 /* Products */,
+				CE64C8FE2CF8E80800F57EFC /* CatGeneratorNew */,
+				CE4E69BF2CF9EA6D00E852D7 /* CatGeneratorNew.app */,
 			);
-			sourceTree = "<group>";
-		};
-		CEA3ECA72CDE7D200008DF58 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CEA3ECA62CDE7D200008DF58 /* CatGeneratorNew.app */,
-				CEA3ECBC2CDE7D230008DF58 /* CatGeneratorNewTests.xctest */,
-				CEA3ECC62CDE7D230008DF58 /* CatGeneratorNewUITests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -109,13 +99,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CEA3ECA82CDE7D200008DF58 /* CatGeneratorNew */,
+				CE64C8FE2CF8E80800F57EFC /* CatGeneratorNew */,
 			);
 			name = CatGeneratorNew;
 			packageProductDependencies = (
 			);
 			productName = CatGeneratorNew;
-			productReference = CEA3ECA62CDE7D200008DF58 /* CatGeneratorNew.app */;
+			productReference = CE4E69BF2CF9EA6D00E852D7 /* CatGeneratorNew.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CEA3ECBB2CDE7D230008DF58 /* CatGeneratorNewTests */ = {
@@ -170,6 +160,7 @@
 				TargetAttributes = {
 					CEA3ECA52CDE7D200008DF58 = {
 						CreatedOnToolsVersion = 16.0;
+						LastSwiftMigration = 1600;
 					};
 					CEA3ECBB2CDE7D230008DF58 = {
 						CreatedOnToolsVersion = 16.0;
@@ -191,7 +182,7 @@
 			mainGroup = CEA3EC9D2CDE7D200008DF58;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = CEA3ECA72CDE7D200008DF58 /* Products */;
+			productRefGroup = CEA3EC9D2CDE7D200008DF58;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -269,11 +260,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H895Q3S3C2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CatGeneratorNew/Info.plist;
+				INFOPLIST_FILE = CatGeneratorNew/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -287,6 +279,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = arsalanka.CatGeneratorNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CatGeneratorNew-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -297,11 +291,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = H895Q3S3C2;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = CatGeneratorNew/Info.plist;
+				INFOPLIST_FILE = CatGeneratorNew/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -315,6 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = arsalanka.CatGeneratorNew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "CatGeneratorNew-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
