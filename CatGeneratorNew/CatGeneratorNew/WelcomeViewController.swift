@@ -8,12 +8,12 @@
 import UIKit
 
 final class WelcomeViewController: UIViewController {
+    private var imageContent: Data?
+    
     @IBOutlet weak var scrollView: UIScrollView!
     @IBOutlet weak var activityIndicator: UIActivityIndicatorView!
     @IBOutlet weak var button: UIButton!
     @IBOutlet weak var catImageView: UIImageView!
-    
-    private var imageContent: Data?
     
     override func viewDidLoad() {
         super.viewDidLoad()
